@@ -1,0 +1,35 @@
+-- Creating the 'family_members' table
+create table family_members (
+    member_id SERIAL primary key,
+    generation INT,
+    num_gen INT,
+    gender CHAR(1),
+    birth_date DATE,
+    names VARCHAR(100),
+    father_lastname VARCHAR(50),
+    mother_lastname VARCHAR(50),
+    relative_id INT)
+    
+-- Creating the 'conjugals' table    
+create table conjugals (
+    conjugal_id SERIAL primary key,
+    generation INT,
+    num_couple INT,
+    gender CHAR(1),
+    birth_date DATE,
+    names VARCHAR(64),
+    father_lastname VARCHAR(32),
+    mother_lastname VARCHAR(32),
+    relative_id INT)
+    
+-- Creating the 'conjugals_sons' table    
+create table conjugals_children (
+    child_id SERIAL primary key,
+    generation INT,
+    num_son_couple INT,
+    gender CHAR(1),
+    birth_date DATE,
+    names VARCHAR(64),
+    father_lastname VARCHAR(32),
+    mother_lastname VARCHAR(32),
+    relative_id INT)

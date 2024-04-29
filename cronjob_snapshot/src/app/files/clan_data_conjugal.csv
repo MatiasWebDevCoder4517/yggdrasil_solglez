@@ -1,0 +1,6 @@
+conjugal_id,generation,num_couple,gender,birth_date,names,father_lastname,mother_lastname,relative_id
+11301,1,1,M,11/22/1963,Ramiro Ulises,Pizarro,Ruedi,113
+20201,2,1,F,1/1/1111,Carmen Luz,Montes,Sotomayor,202
+20202,2,2,F,1/1/1111,Rosa Maria,Azcorbeitia,?,202
+21501,2,1,M,1/1/1111,names...,Yankovic,mother_lastname...,215
+10101,0,1,F,4/26/2017,Maria Gabriela,Silva,Moreno,001
