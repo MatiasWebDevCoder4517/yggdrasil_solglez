@@ -37,17 +37,15 @@ On these table we have the same fields as for the Solar family tree, but their e
 - Names; Father familyname; Mother familyname; Date of birth; Generation; Number; Unique ID; Relative UID;
 
 For the encoding, we use the following rules:
-- Generation; 
-  - Conjugal partner: The generation matches their Solar partner generation, for example the wifes and husband of a grandchildren, gen 2, would be gen 2 aswell. And for 
+- Generation;
+  - Conjugal partner: The generation matches their Solar partner generation, for example the wifes and husband of a grandchildren, gen 2, would be gen 2 aswell. And for
   - Conjugal family: The children are the generation of the parent plus one.
 - Number
   - Conjugal partner: In case of multiple partners, the first one is 01, the second one 02, etc.
   - Conjugal family: For children from the same partner, ordered by birth date.
-- Unique ID; 
-  - Conjugal partner: Concat of RELATIVE ID|NUMBER. 
+- Unique ID;
+  - Conjugal partner: Concat of RELATIVE ID|NUMBER.
   - Conjugal family Concat of UID of Conjugal Parent|Number
 - Relative ID;
   - Conjugal partner: The UID of the Solar relative
   - Conjugal family: The UID of the Solar relative
-
-

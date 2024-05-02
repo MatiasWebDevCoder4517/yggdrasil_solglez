@@ -9,8 +9,8 @@ create table family_members (
     father_lastname VARCHAR(50),
     mother_lastname VARCHAR(50),
     relative_id INT)
-    
--- Creating the 'conjugals' table    
+
+-- Creating the 'conjugals' table
 create table conjugals (
     conjugal_id SERIAL primary key,
     generation INT,
@@ -21,8 +21,8 @@ create table conjugals (
     father_lastname VARCHAR(32),
     mother_lastname VARCHAR(32),
     relative_id INT)
-    
--- Creating the 'conjugals_sons' table    
+
+-- Creating the 'conjugals_sons' table
 create table conjugals_children (
     child_id SERIAL primary key,
     generation INT,
