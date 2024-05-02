@@ -1,14 +1,10 @@
+# External
 import pandas as pd
 import psycopg2
 from psycopg2 import extras
-from app.config import (
-    CSV_PATH,
-    DB_CONFIG,
-    LOGGER,
-    MEMBERS_TABLE,
-    CONJUGAL_TABLE,
-    CHILDREN_TABLE,
-)
+
+# Project
+from app.config import CHILDREN_TABLE, CSV_PATH, DB_CONFIG, LOGGER
 
 
 ##Todo: reorder, clean code structure and modularization
