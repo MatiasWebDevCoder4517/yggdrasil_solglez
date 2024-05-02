@@ -11,3 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Build main code logic for pasting data into the db through .csv file.
 - Adding pre-commit lib for clean code and auto-format.
+- Added SQLAlchemy ORM for database connections and queries improvements.
+- Added SQLAlchemy models for point database tables.

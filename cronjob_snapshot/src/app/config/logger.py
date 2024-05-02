@@ -7,7 +7,7 @@ from logging.config import dictConfig
 if not os.path.isdir("./logs"):
     os.mkdir("./logs")
 
-LOGGER_NAME = "worker-reportes-usuarios"
+LOGGER_NAME = "cronjob_snapshot"
 LOG_FORMAT: str = (
     '{"time": "%(asctime)s", "level": "%(levelname)s", '
     + '"thread": "%(threadName)s", "component": "%(module)s",'
